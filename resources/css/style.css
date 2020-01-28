@@ -1,0 +1,93 @@
+/* ! Basic Setup */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    color: rgb(124, 124, 124);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/** Reusable Components **/
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+.box {
+    padding: 1%;
+}
+
+/** ---- Heading ---- **/
+h1 {
+    color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+    font-size: 250%;
+    animation: fadein 14s;
+}
+
+/** ---- Header ---- **/
+header {
+    background-image: url("./img/IMG_4131.jpg");
+    background-size: cover;
+    background-position: cover;
+    height: 100vh;
+    animation: fadein 10s; 
+}
+
+.header-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    text-align: center;
+}
+/** ---- Button ---- **/
+.btn {
+    padding: 10px 30px;
+    font-size: 125%;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid #8e44ad;
+    color: #fff;
+    transition: background-color 0.2s;
+    background-color: #8e44ad;
+    animation: fadein 20s;
+}
+
+/** ---- footer/icons ---- **/
+footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.big-icon {
+    font-size: 180%;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+footer p {
+    font-size: 80%;
+    color: rgb(184, 182, 182);
+}
+
+/** ---- Animations ---- **/
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+

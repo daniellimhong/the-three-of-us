@@ -1,0 +1,47 @@
+@media all and (max-width: 480px) {
+    .header-text-box {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.123), rgba(255, 255, 255, 0.158)) url("./img/IMG_4132.jpg");
+        background-position: center; 
+        width: 100%;
+        padding: 0 2%;
+        top: 40%;
+    }
+
+    h1 {
+        font-size: 200%
+    }
+
+    .btn {
+        padding: 5px 15px;
+        font-size: 100%;
+        font-weight: 300;
+        text-decoration: none;
+        border-radius: 200px;
+        border: 1px solid #8e44ad;
+        color: #fff;
+        transition: background-color 0.2s;
+        background-color: #8e44ad;
+        animation: fadein 20s;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .big-icon {
+        font-size: 200%;
+        color: rgba(255, 255, 255, 0.603);
+        /* margin-top: 20px; */
+    }
+    .box {
+        width: 33%;
+    }
+    footer p {
+        font-size: 60%;
+        color: white;
+    }
+}
